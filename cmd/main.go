@@ -13,6 +13,8 @@ type User struct {
 
 func main() {
 	srvCfg := new(config.Server)
+
+	// Fix tạm thôi đừng chửi tao, địt mẹ mày Thiên ạ
 	srvCfg.Port = 8080
 	srvCfg.Mysql.DBName = "default"
 	srvCfg.Mysql.Port = 3306
